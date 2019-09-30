@@ -3,18 +3,18 @@ Pro Kabaddi League Hackathon by upGrad
 
 ## TASK 2 Point table Top Team Prediction
 ***************************************
-1. We have collected the data for all seasons point table data.
-2. We have removed all the columns which had all values NULL.
-3. There are columns which had ONLY one value so we decided to remove those columns also as they are not going to add any value to our problem statement.
-4. We have see cateorical plots for the LOST, WINS and NORESULT to see the pattern.
-5. We have started with LineaRegression and the followed by Ridge Regression and XGBRegressor.
+1. We have collected the data for all seasons point table data. <br>
+2. We have removed all the columns which had all values NULL.  <br>
+3. There are columns which had ONLY one value so we decided to remove those columns also as they are not going to add any value to our problem statement. <br>
+4. We have see cateorical plots for the LOST, WINS and NORESULT to see the pattern. <br>
+5. We have started with LineaRegression and the followed by Ridge Regression and XGBRegressor. <br>
 
 *************************************************************************************
 ### Predict the the top team in the points table after the completion of league matches
 *************************************************************************************
-a. LineaRegression - with MEAN RMSE - 0.6811 - Top Team: Dabang Delhi K.C
-b. Ridge Regression with alpha value as =0.020 - with MEAN RMSE -  0.6748 Top Team: Dabang Delhi K.C
-c. XGBRegressor with n_estimators=1500, learning_rate=0.20 - with RMSE - Mean - 0.6329 Top Team: Bengal Warriors
+a. LineaRegression - with MEAN RMSE - 0.6811 - Top Team: Dabang Delhi K.C  <br>
+b. Ridge Regression with alpha value as =0.020 - with MEAN RMSE -  0.6748 Top Team: Dabang Delhi K.C  <br>
+c. XGBRegressor with n_estimators=1500, learning_rate=0.20 - with RMSE - Mean - 0.6329 Top Team: Bengal Warriors <br>
 
 *****************
 ### Final Prediction:
@@ -39,9 +39,9 @@ Steps:
 *************************************
 ### sucessfull raid percentage-prediction
 **************************************
-a. LineaRegression - with RMSE - Mean - 10.51 : Top player: Victor Onyango Obiero
-b. Ridge Regression with alpha value as 0.05 - with RMSE - Mean - 9.731 : Top Player: Pawan Kumar Sehrawat
-c. XGBRegressor with n_estimators=1000, learning_rate=0.10 - with RMSE mean - Mean - 4.807 : Top Player: Pawan Kumar Sehrawat
+a. LineaRegression - with RMSE - Mean - 10.51 : Top player: Victor Onyango Obiero  <br>
+b. Ridge Regression with alpha value as 0.05 - with RMSE - Mean - 9.731 : Top Player: Pawan Kumar Sehrawat  <br>
+c. XGBRegressor with n_estimators=1000, learning_rate=0.10 - with RMSE mean - Mean - 4.807 : Top Player: Pawan Kumar Sehrawat  <br>
 
 
 #### Final Prediction:
@@ -52,9 +52,9 @@ Top : Pawan Kumar Sehrawat as XGB model mean RMSE is quite low and for CV RMSE m
 *************************************
 ### sucessfull tackle percentage-prediction
 **************************************
-a. LineaRegression - with mean RMSE - 8.979: Top Player: Vishal
-b. Ridge Regression with alpha value as 0.15 - with mean RMSE - 7.741 : Top Player: Vishal Bhardwaj
-c. XGBRegressor with n_estimators=1000, learning_rate=0.15 - RMSE - 3.611 : Top Player: Baldev Singh
+a. LineaRegression - with mean RMSE - 8.979: Top Player: Vishal  <br>
+b. Ridge Regression with alpha value as 0.15 - with mean RMSE - 7.741 : Top Player: Vishal Bhardwaj  <br>
+c. XGBRegressor with n_estimators=1000, learning_rate=0.15 - RMSE - 3.611 : Top Player: Baldev Singh  <br>
 
 *****************
 #### Final Prediction:
