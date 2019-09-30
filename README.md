@@ -1,16 +1,16 @@
-# Files Submitted:
-## scrap_team_data.ipynb --> Extracting the team data for prediction for team level
-## team_data.csv --> final team data used for the prediction
-## mk_model_winner.ipynb --> Predicting the Winner of tournament
-## mk_model_scu_tackels.ipynb --> Predicting the team with highest successful tackles
-## mk_model_scu_raids .ipynb --> Predicting the team with highest successful raids
-## mk_model_sup_per.ipynb --> Predecting the team with highest super-performance total
-## point_table_final.csv --> Final Data for point table for prediction
-## Player_stats_info.csv --> Final data for player analysis for prediction
-## Player_prediction.ipynb --> Notebook for the player prediction for successful raid percentage & successful tackle perentage
-## Point_table_prediction.ipynb -->Notebook for the predicting the top team in the point table after league matches
-## Player_stats_extraction.ipynb --> Notebook for extracting the player level stats from https://www.prokabaddi.com
-## README.md -->Project details
+### Files Submitted:
+#### scrap_team_data.ipynb --> Extracting the team data for prediction for team level
+#### team_data.csv --> final team data used for the prediction
+#### mk_model_winner.ipynb --> Predicting the Winner of tournament
+#### mk_model_scu_tackels.ipynb --> Predicting the team with highest successful tackles
+#### mk_model_scu_raids .ipynb --> Predicting the team with highest successful raids
+#### mk_model_sup_per.ipynb --> Predecting the team with highest super-performance total
+#### point_table_final.csv --> Final Data for point table for prediction
+#### Player_stats_info.csv --> Final data for player analysis for prediction
+#### Player_prediction.ipynb --> Notebook for the player prediction for successful raid percentage & successful tackle perentage
+#### Point_table_prediction.ipynb -->Notebook for the predicting the top team in the point table after league matches
+#### Player_stats_extraction.ipynb --> Notebook for extracting the player level stats from https://www.prokabaddi.com
+#### README.md -->Project details
 
 
 # Pro-Kabaddi-League
