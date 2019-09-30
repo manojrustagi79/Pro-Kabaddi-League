@@ -1,6 +1,82 @@
 # Pro-Kabaddi-League
 Pro Kabaddi League Hackathon by upGrad
 
+
+
+## Team Level Prediction tasks:
+Steps: <br>
+1. From https://www.prokabaddi.com we have extracted the JSON URLs and extracted the Team level data for every season.<br>
+
+2. We have checked the data for NULL values and removed the all the columns which had 100% values as NULL.<br>
+
+3. There are some columns like is_qualified column is categorical, convert into integer.<br>
+
+4. Drive New Feature such as 1) perfomance rate = points scored/match played  2) winning rate = win matches/match played<br>
+
+5. We have taken starategy that for training and Test purpose we will keep the data from season 1 to season 6 & season 7 data we will keep for prediction purpose.<br>
+
+6. During Data analysis identify important features and drawn the co-orelation matrix among the important variables.<br>
+
+7. Remove the variables who have high coorelation among the variables<br>
+
+8. We have started with RandomforestClassifier and the followed by Logistic Regression and XGBClassifier.<br>
+
+************************************* <br>
+### Task 1. Predict the winner of the tournament <br> 
+************************************** <br>
+a. RandomForestClassifier (class_weight='balanced') - ROC score - 46% <br>
+b. Logistic Regression (class_weight='balanced') - ROC score - 90% <br>
+c. XGBClassifier (scale_pos_weight=7) - ROC score - 43% <br>
+
+Final Model : Logistic Regression <br>
+
+***************** <br>
+Final Prediction:<br>
+*****************<br>
+#### Dabang Delhi K.C. with  66%  <br>
+
+************************************* <br>
+### Task 3 Predict the team with the highest points for successful raids <br>
+**************************************
+a. RandomForestClassifier (class_weight='balanced') - ROC score - 87% <br>
+b. Logistic Regression (class_weight='balanced') - ROC score - 87% <br>
+c. XGBClassifier (scale_pos_weight=7) - ROC score - 50% <br>
+
+Final Model : Logistic Regression <br>
+
+***************** <br>
+Final Prediction: <br>
+***************** <br>
+First : Bengal Warriors	 with  94%  <br>
+
+*************************************
+### Task 4: Predicting the team with the highest points for successful tackles <br>
+**************************************
+a. RandomForestClassifier (class_weight='balanced') - ROC score - 46% <br>
+b. Logistic Regression (class_weight='balanced') - ROC score - 93% <br>
+c. XGBClassifier (scale_pos_weight=7) - ROC score - 50% <br>
+
+Final Model : Logistic Regression <br>
+
+*****************
+#### Final Prediction: <br>
+*****************
+First : Haryana Steelers with  65%  <br>
+
+*************************************
+### Task 5: Predicting the team with the highest super-performance total <br>
+**************************************
+a. RandomForestClassifier (class_weight='balanced') - ROC score - 46% <br>
+b. Logistic Regression (class_weight='balanced') - ROC score - 84% <br>
+c. XGBClassifier (scale_pos_weight=7) - ROC score - 43% <br>
+
+Final Model : Logistic Regression <br>
+
+*****************
+#### Final Prediction:
+*****************
+First : Bengal Warriors	 with  58%  <br>
+
 ## TASK 2 Point table Top Team Prediction
 ***************************************
 1. We have collected the data for all seasons point table data. <br>
